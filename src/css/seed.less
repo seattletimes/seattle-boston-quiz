@@ -238,6 +238,10 @@ body {
     font-size: 16px;
   }
 
+  .question-key {
+    padding-bottom: 5px;
+  }
+
   .options-key {
     .fa-circle-thin {
       font-size: 12px;
@@ -263,15 +267,22 @@ body {
   }
 
   .correct, .correct.selected {
-    background: #07B6A4;
+    background: #8eb607;
+    font-weight: 400;
   }
 
   .selected {
-    background: #E92520;
+    background: #C22E1B;
 
     &::before {
       content: "\f111";
     }
+  }
+
+  .explanation-key {
+    font-weight: 300;
+    padding-top: 10px;
+    font-family: "Helvetica";
   }
 }
 
