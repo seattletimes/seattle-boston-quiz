@@ -57,6 +57,12 @@ body {
 
     .quiz-box {
       padding-top: 55px;
+
+      ol {
+        @media @mobile {
+          padding-left: 20px;
+        }
+      }
     }
 
     @media @tablet {
@@ -235,7 +241,7 @@ body {
 
   .answer-key {
     padding-bottom: 20px;
-    font-size: 16px;
+    font-size: 18px;
   }
 
   .question-key {
@@ -243,16 +249,10 @@ body {
   }
 
   .options-key {
-    .fa-circle-thin {
-      font-size: 12px;
-    }
-  }
-
-  .options-key {
-    padding: 5px;
-    padding-left: 10px;
+    padding: 10px;
     background: #EEE;
     font-weight: 300;
+    font-size: 18px;
 
     &::before {
       position: relative;
@@ -281,8 +281,10 @@ body {
 
   .explanation-key {
     font-weight: 300;
-    padding-top: 10px;
-    font-family: "Helvetica";
+    padding-top: 5px;
+    padding-left: 23px;
+    font-size: 16px;
+    font-family: Helvetica;
   }
 }
 

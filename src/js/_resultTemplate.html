@@ -9,11 +9,14 @@
     <li class="answer-key">
       <div class="question-key">{{question}}</div>
       {{#answers}}
-        <div class="options-key {{#correct}}correct{{/correct}} {{#selected}} selected{{/selected}}">{{answer}}</div>
+        <div class="options-key {{#correct}}correct{{/correct}} {{#selected}} selected{{/selected}}">
+          {{answer}}
+          {{#explanation}}
+            <div class="explanation-key">{{explanation}}</div>
+          {{/explanation}}
+        </div>
       {{/answers}}
-      {{#explanation}}
-        <div class="explanation-key"><i class="fa fa-angle-double-right"></i> {{explanation}}</div>
-      {{/explanation}}
+      
     </li>
   {{/answerKey}}
 </ol>

@@ -62,8 +62,7 @@
         json.SeattleVsBostonQuiz2015_Questions.forEach(function(q) {
           var id = q.questionid;
           var question = q.question;
-          var explanation = q.explanation;
-          quizData[id] = { "question": question, "explanation": explanation };
+          quizData[id] = { "question": question };
         });
         json.SeattleVsBostonQuiz2015_Answers.forEach(function(a, index) {
           var id = a.questionid;
@@ -71,6 +70,7 @@
           var answer = { 
             "answer": a.answer,
             "correct": a.correct,
+            "explanation": a.explanation,
             "id": index
           };
           quizData[id].answers.push(answer);
