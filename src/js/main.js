@@ -6,7 +6,6 @@ var questionTemplate = require("./_questionTemplate.html");
 var resultTemplate = require("./_resultTemplate.html");
 
 var score = 0;
-var questionIndex;
 var id = 1;
 
 // Set up templates
@@ -37,9 +36,13 @@ var watchNext = function() {
   $(".next").click(function() {
     // score answer
     var correct = $("input:checked").val();
-    if (correct) {
-      score += 1;
-    }
+    if (correct) { score += 1 }
+    // keep track of selected answer
+    quizData[id].answers.forEach(function(answer) {
+      if (answer.id == $("input:checked").attr("id")) {
+        answer.selected = "x";
+      }
+    });
 
     // move on to next question
     if (id < Object.keys(window.quizData).length) {
@@ -63,6 +66,9 @@ var calculateResult = function() {
     if (score >= result.min && score <= result.max) {
       // display result
       result.score = score;
+      var answerKey = [];
+      for (var question in quizData) { answerKey.push(quizData[question]) }
+      result.answerKey = answerKey;
       $(".quiz-box").html(ich.resultTemplate(result));
     }
   }
@@ -83,6 +89,6 @@ var calculateResult = function() {
   $(".share-button").addClass("share-results");
 };
 
-showQuestion(questionIndex);
+showQuestion(id);
 watchInput();
 watchNext();

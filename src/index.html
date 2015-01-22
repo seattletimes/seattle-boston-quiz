@@ -22,7 +22,7 @@
     <img class="illustration" src="http://placekitten.com/1100/450">
 
     <header>
-      <h2 class="quiz-label">Personality quiz</h2>
+      <h2 class="quiz-label"><<< LOREM IPSUM >>></h2>
       <h1 class="title">The I-90 Series<span class="green big">Boston vs. Seattle</span></h1>
       <p class="chatter"> <<< DELETE ME >>> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu dui enim. Integer porttitor varius dolor quis posuere. Sed ut ligula ac nisi lobortis pulvinar. <<< DELETE ME >>> </p>
     </header>
@@ -38,8 +38,6 @@
         <div class="question-box"></div>
         <button class="next" disabled>NEXT</button>
       </div>
-
-      <div class="divider"></div>
 
       <div class="credits">
         Quiz by <span class="credit-name">Seattle Times staff</span>,
@@ -62,7 +60,8 @@
         json.SeattleVsBostonQuiz2015_Questions.forEach(function(q) {
           var id = q.questionid;
           var question = q.question;
-          quizData[id] = { "question": question };
+          var explanation = q.explanation;
+          quizData[id] = { "question": question, "explanation": explanation };
         });
         json.SeattleVsBostonQuiz2015_Answers.forEach(function(a, index) {
           var id = a.questionid;
