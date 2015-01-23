@@ -75,17 +75,6 @@ var calculateResult = function() {
 
   $(".retake").removeClass("hidden");
   $(".quiz-container").addClass("results");
-  new Share(".share-button", {
-    // description: "I got " + result.player + "! Which Seahawk are YOU?",
-    // image: result.image,
-    ui: {
-      flyout: "bottom left",
-      button_text: "SHARE RESULTS"
-    },
-    // facebook: {
-    //   caption: "I got " + result.player + "! Which Seahawk are YOU?"
-    // }
-  });
   $(".share-button").addClass("share-results");
 };
 

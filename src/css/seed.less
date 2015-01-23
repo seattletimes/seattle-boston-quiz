@@ -120,7 +120,7 @@ body {
         display: inline !important;
 
         .social.networks-5.left {
-          margin-left: 21px !important;
+          margin-left: -52px !important;
 
           @media @tablet {
             margin-left: 235px !important;
@@ -199,7 +199,6 @@ body {
       -moz-osx-font-smoothing: grayscale;
       content: "\f1db";
       margin-right: 8px;
-      
     }
 
     &:checked + label::before {
@@ -249,41 +248,52 @@ body {
   }
 
   .options-key {
-    padding: 10px;
-    background: #EEE;
+    display:none;
+    padding: 5px 0;
     font-weight: 300;
     font-size: 18px;
+    padding-left: 22px;
+  }
+
+  .correct, .correct.selected {
+    display: block;
+    padding-left: 0;
 
     &::before {
+      color: #8eb607;
       position: relative;
       display: inline-block;
       font: normal normal normal 14px/1 FontAwesome;
       text-rendering: auto;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
-      content: "\f1db";
-      margin-right: 8px;
+      content: "\f00c";
+      margin-right: 3px;
     }
   }
 
-  .correct, .correct.selected {
-    background: #8eb607;
-    font-weight: 400;
-  }
-
   .selected {
-    background: #C22E1B;
+    display: block;
+    padding-left: 0;
 
     &::before {
-      content: "\f111";
+      color: #C22E1B;
+      position: relative;
+      display: inline-block;
+      font: normal normal normal 14px/1 FontAwesome;
+      text-rendering: auto;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      content: "\f00d";
+      margin-right: 7px;
     }
   }
 
   .explanation-key {
     font-weight: 300;
-    padding-top: 5px;
-    padding-left: 23px;
-    font-size: 16px;
+    padding-top: 8px;
+    padding-left: 21px;
+    font-size: 15px;
     font-family: Helvetica;
   }
 }

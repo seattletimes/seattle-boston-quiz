@@ -2,205 +2,239 @@
   {
     "title": "1",
     "questionid": "1",
-    "answer": "\"Frasier\"",
-    "correct": ""
+    "answer": "Paul Allen",
+    "correct": "",
+    "explanation": ""
   },
   {
     "title": "1",
     "questionid": "1",
-    "answer": "\"Twin Peaks\"",
-    "correct": "x"
+    "answer": "Jeff Bezos",
+    "correct": "",
+    "explanation": ""
   },
   {
     "title": "1",
     "questionid": "1",
-    "answer": "\"The Killing\"",
-    "correct": ""
+    "answer": "Bill Gates",
+    "correct": "x",
+    "explanation": ""
   },
   {
     "title": "2",
     "questionid": "2",
-    "answer": "Celtics",
-    "correct": ""
+    "answer": "True. Duh, it rains a lot in Seattle!",
+    "correct": "",
+    "explanation": ""
   },
   {
     "title": "2",
     "questionid": "2",
-    "answer": "Sonics",
-    "correct": ""
-  },
-  {
-    "title": "2",
-    "questionid": "2",
-    "answer": "Neither, he won the same number of games at both stops.",
-    "correct": "x"
-  },
-  {
-    "title": "3",
-    "questionid": "3",
-    "answer": "\"The Hand That Rocks the Cradle\"",
-    "correct": ""
+    "answer": "False. Come on. Those Boston winters can be brutal.",
+    "correct": "x",
+    "explanation": ""
   },
   {
     "title": "3",
     "questionid": "3",
     "answer": "\"Say Anything\"",
-    "correct": "x"
+    "correct": "x",
+    "explanation": ""
+  },
+  {
+    "title": "3",
+    "questionid": "3",
+    "answer": "\"The Hand That Rocks the Cradle\"",
+    "correct": "",
+    "explanation": ""
   },
   {
     "title": "3",
     "questionid": "3",
     "answer": "\"Shoot to Kill\"",
-    "correct": ""
+    "correct": "",
+    "explanation": ""
   },
   {
     "title": "3",
     "questionid": "3",
     "answer": "\"It Happened at the World's Fair\"",
-    "correct": ""
+    "correct": "",
+    "explanation": ""
   },
   {
     "title": "4",
     "questionid": "4",
     "answer": "The Space Needle",
-    "correct": ""
+    "correct": "",
+    "explanation": ""
   },
   {
     "title": "4",
     "questionid": "4",
     "answer": "The Prudential Building",
-    "correct": "x"
+    "correct": "x",
+    "explanation": "The Prudential Building (749 feet) is taller than the Space Needle (605 feet)."
   },
   {
     "title": "5",
     "questionid": "5",
-    "answer": "True. Duh, it rains a lot in Seattle!",
-    "correct": ""
+    "answer": "Massachusetts ratifies U.S. Constitution",
+    "correct": "x",
+    "explanation": ""
   },
   {
     "title": "5",
     "questionid": "5",
-    "answer": "False. Come on. Those Boston winters can be brutal.",
-    "correct": "x"
+    "answer": "The State House is built in Boston",
+    "correct": "",
+    "explanation": ""
+  },
+  {
+    "title": "5",
+    "questionid": "5",
+    "answer": "The Boston Tea Party",
+    "correct": "",
+    "explanation": ""
+  },
+  {
+    "title": "5",
+    "questionid": "5",
+    "answer": "USS Constitution is launched",
+    "correct": "",
+    "explanation": ""
   },
   {
     "title": "6",
     "questionid": "6",
-    "answer": "Paul Allen",
-    "correct": ""
+    "answer": "\"Frasier\"",
+    "correct": "",
+    "explanation": ""
   },
   {
     "title": "6",
     "questionid": "6",
-    "answer": "Bill Gates",
-    "correct": "x"
+    "answer": "\"Twin Peaks\"",
+    "correct": "x",
+    "explanation": ""
   },
   {
     "title": "6",
     "questionid": "6",
-    "answer": "Jeff Bezos",
-    "correct": ""
+    "answer": "\"The Killing\"",
+    "correct": "",
+    "explanation": ""
   },
   {
     "title": "7",
     "questionid": "7",
     "answer": "Dick Williams",
-    "correct": ""
+    "correct": "",
+    "explanation": ""
   },
   {
     "title": "7",
     "questionid": "7",
     "answer": "Darrell Johnson",
-    "correct": "x"
+    "correct": "x",
+    "explanation": ""
   },
   {
     "title": "7",
     "questionid": "7",
     "answer": "John McNamara",
-    "correct": ""
+    "correct": "",
+    "explanation": ""
   },
   {
     "title": "8",
     "questionid": "8",
     "answer": "Seattle",
-    "correct": ""
+    "correct": "",
+    "explanation": ""
   },
   {
     "title": "8",
     "questionid": "8",
     "answer": "Boston",
-    "correct": "x"
+    "correct": "x",
+    "explanation": "But it’s close. Boston accounts for 9.6 percent of Massachusett’s state population while Seattle accounts for 9.3 percent of Washington’s population."
   },
   {
     "title": "9",
     "questionid": "9",
-    "answer": "Massachusetts ratifies U.S. Constitution",
-    "correct": "x"
+    "answer": "Celtics",
+    "correct": "",
+    "explanation": ""
   },
   {
     "title": "9",
     "questionid": "9",
-    "answer": "The Boston State House is built",
-    "correct": ""
+    "answer": "Sonics",
+    "correct": "",
+    "explanation": ""
   },
   {
     "title": "9",
     "questionid": "9",
-    "answer": "The Boston Tea Party",
-    "correct": ""
-  },
-  {
-    "title": "9",
-    "questionid": "9",
-    "answer": "USS Constitution is launched",
-    "correct": ""
-  },
-  {
-    "title": "10",
-    "questionid": "10",
-    "answer": "Mark Brunell",
-    "correct": ""
+    "answer": "Neither, he won the same number of games at both stops.",
+    "correct": "x",
+    "explanation": "Russell won 162 games for the Celtics and Sonics."
   },
   {
     "title": "10",
     "questionid": "10",
     "answer": "Hugh Millen",
-    "correct": "x"
+    "correct": "x",
+    "explanation": "The former Husky QB started the majority of the Patriots’ games in 1991 and 1992."
+  },
+  {
+    "title": "10",
+    "questionid": "10",
+    "answer": "Mark Brunell",
+    "correct": "",
+    "explanation": ""
   },
   {
     "title": "10",
     "questionid": "10",
     "answer": "Billy Jo Hobert",
-    "correct": ""
+    "correct": "",
+    "explanation": ""
   },
   {
     "title": "11",
     "questionid": "11",
     "answer": "\"Wayne's World 2\"",
-    "correct": ""
+    "correct": "",
+    "explanation": ""
   },
   {
     "title": "11",
     "questionid": "11",
     "answer": "\"Walk Hard: The Dewey Cox story\"",
-    "correct": "x"
+    "correct": "x",
+    "explanation": ""
   },
   {
     "title": "11",
     "questionid": "11",
     "answer": "\"School of Rock\"",
-    "correct": ""
+    "correct": "",
+    "explanation": ""
   },
   {
     "title": "12",
     "questionid": "12",
-    "answer": "McHale",
-    "correct": "x"
+    "answer": "Joel McHale",
+    "correct": "x",
+    "explanation": "McHale was born in Rome while his father was working as a dean of students at a local university."
   },
   {
     "title": "12",
     "questionid": "12",
-    "answer": "O'Brien",
-    "correct": ""
+    "answer": "Conan O'Brien",
+    "correct": "",
+    "explanation": ""
   }
 ]
