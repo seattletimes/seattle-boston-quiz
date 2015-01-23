@@ -30,35 +30,35 @@
   {
     "title": "2",
     "questionid": "2",
-    "answer": "False. Come on. Those Boston winters can be brutal.",
+    "answer": "False. Come on, those Boston winters can be brutal.",
     "correct": "x",
     "explanation": ""
   },
   {
     "title": "3",
     "questionid": "3",
-    "answer": "\"Say Anything\"",
+    "answer": "“Say Anything”",
     "correct": "x",
     "explanation": ""
   },
   {
     "title": "3",
     "questionid": "3",
-    "answer": "\"The Hand That Rocks the Cradle\"",
+    "answer": "“The Hand that Rocks the Cradle”",
     "correct": "",
     "explanation": ""
   },
   {
     "title": "3",
     "questionid": "3",
-    "answer": "\"Shoot to Kill\"",
+    "answer": "“Shoot to Kill”",
     "correct": "",
     "explanation": ""
   },
   {
     "title": "3",
     "questionid": "3",
-    "answer": "\"It Happened at the World's Fair\"",
+    "answer": "“It Happened at the World’s Fair”",
     "correct": "",
     "explanation": ""
   },
@@ -107,21 +107,21 @@
   {
     "title": "6",
     "questionid": "6",
-    "answer": "\"Frasier\"",
+    "answer": "“Frasier”",
     "correct": "",
     "explanation": ""
   },
   {
     "title": "6",
     "questionid": "6",
-    "answer": "\"Twin Peaks\"",
+    "answer": "“Twin Peaks”",
     "correct": "x",
     "explanation": ""
   },
   {
     "title": "6",
     "questionid": "6",
-    "answer": "\"The Killing\"",
+    "answer": "“The Killing”",
     "correct": "",
     "explanation": ""
   },
@@ -205,21 +205,21 @@
   {
     "title": "11",
     "questionid": "11",
-    "answer": "\"Wayne's World 2\"",
+    "answer": "“Wayne’s World 2\"",
     "correct": "",
     "explanation": ""
   },
   {
     "title": "11",
     "questionid": "11",
-    "answer": "\"Walk Hard: The Dewey Cox story\"",
+    "answer": "“Walk Hard: The Dewey Cox story”",
     "correct": "x",
     "explanation": ""
   },
   {
     "title": "11",
     "questionid": "11",
-    "answer": "\"School of Rock\"",
+    "answer": "“School of Rock”",
     "correct": "",
     "explanation": ""
   },
@@ -233,7 +233,7 @@
   {
     "title": "12",
     "questionid": "12",
-    "answer": "Conan O'Brien",
+    "answer": "Conan O’Brien",
     "correct": "",
     "explanation": ""
   }
