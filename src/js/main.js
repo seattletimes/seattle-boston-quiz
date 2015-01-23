@@ -76,6 +76,7 @@ var calculateResult = function() {
   $(".retake").removeClass("hidden");
   $(".quiz-container").addClass("results");
   $(".share-button").addClass("share-results");
+  $(".recirc").addClass("show");
 };
 
 showQuestion(id);
