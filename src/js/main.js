@@ -16,7 +16,8 @@ var Share = require("share");
 new Share(".share-button", {
   ui: {
     flyout: "bottom left"
-  }
+  },
+  description: "How well do you know Seattle and Boston? Take our city trivia quiz!"
 });
 
 var showQuestion = function(questionId) {
@@ -76,6 +77,7 @@ var calculateResult = function() {
   $(".retake").removeClass("hidden");
   $(".quiz-container").addClass("results");
   $(".share-button").addClass("share-results");
+  $(".recirc").addClass("show");
 };
 
 showQuestion(id);
