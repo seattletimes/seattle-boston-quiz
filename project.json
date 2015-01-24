@@ -5,13 +5,13 @@
       "path": "wandering-bird"
     },
     "live": {
-      "bucket": "",
-      "path": ""
+      "bucket": "projects.seattletimes.com",
+      "path": "2015/seattle-boston-trivia-quiz"
     }
   },
-  "title": "",
-  "description": "",
-  "url": "",
-  "slug": "",
-  "tags": []
+  "title": "Trivia quiz: Test your knowledge of Seattle and Boston",
+  "description": "The Seahawks and Patriots might be foes in Super Bowl XLIX, but there are plenty of ties between the teams’ hometowns.",
+  "url": "http://projects.seattletimes.com/2015/seattle-boston-trivia-quiz",
+  "slug": "seattle-boston-trivia-quiz",
+  "tags": ["seahawks", "Seattle", "Boston", "Seahawks", "Patriots", "trivia", "quiz", "SuperBowl", "SB49"]
 }
