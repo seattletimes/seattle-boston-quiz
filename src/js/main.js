@@ -44,7 +44,7 @@ var watchNext = function() {
       }
     });
 
-    move on to next question
+    // move on to next question
     if (id < Object.keys(window.quizData).length) {
       id += 1;
       showQuestion(id);
