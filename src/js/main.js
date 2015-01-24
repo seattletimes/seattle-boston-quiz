@@ -44,19 +44,19 @@ var watchNext = function() {
       }
     });
 
-    // move on to next question
-    // if (id < Object.keys(window.quizData).length) {
-    //   id += 1;
-    //   showQuestion(id);
-    //   $(".next").removeClass("active");
-    //   $(".next").attr("disabled", true);
-    //   // Change button text on last question
-    //   if (id == Object.keys(window.quizData).length) {
-    //     $(".next").html("FINISH");
-    //   }
-    // } else {
+    move on to next question
+    if (id < Object.keys(window.quizData).length) {
+      id += 1;
+      showQuestion(id);
+      $(".next").removeClass("active");
+      $(".next").attr("disabled", true);
+      // Change button text on last question
+      if (id == Object.keys(window.quizData).length) {
+        $(".next").html("FINISH");
+      }
+    } else {
       calculateResult();
-    // }
+    }
   });
 };
 
