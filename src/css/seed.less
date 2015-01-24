@@ -18,7 +18,7 @@
 @narrow: 'Oswald', sans-serif;
 
 body {
-  font-family: Helvetica, sans-serif;
+  font-family: @body;
   font-size: 18px;
   background: white;
   max-width: 1200px;
@@ -58,6 +58,7 @@ body {
 
     .quiz-box {
       padding-top: 55px;
+      font-family: @body;
 
       ol {
         @media @mobile {
@@ -169,7 +170,7 @@ body {
 .quiz-box {
   height: 100%;
   width: 100%;
-  font-family: @block;
+  font-family: @body;
   padding: 50px 20px 30px 20px;
   margin: 0 auto;
 
@@ -186,6 +187,10 @@ body {
     font-family: @body;
     font-size: 1.4em;
     color: @blue;
+  }
+
+ .option {
+    font-family: @block;
   }
 
   input {
@@ -226,6 +231,7 @@ body {
   }
 
   .result-description {
+    font-family: @body;
     margin: 0 auto 1em auto;
     font-size: 1.2em;
     color: @dark-gray;
@@ -239,6 +245,10 @@ body {
     margin: 20px 0 10px 0;
   }
 
+  .answer-list {
+    color: @dark-gray;
+  }
+
   .answer-key {
     padding-bottom: 20px;
     font-size: 18px;
@@ -246,11 +256,12 @@ body {
 
   .question-key {
     padding-bottom: 5px;
+    font-family: @body;
   }
 
   .options-key {
     padding: 5px 0;
-    font-weight: 300;
+    font-family: @block;
     font-size: 18px;
     padding-left: 32px;
     text-indent: -11px;
@@ -293,7 +304,7 @@ body {
     font-weight: 300;
     padding-top: 8px;
     font-size: 15px;
-    font-family: Helvetica;
+    font-family: @body;
   }
 }
 
