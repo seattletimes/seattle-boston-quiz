@@ -16,6 +16,12 @@ var Share = require("share");
 new Share(".share-button", {
   ui: {
     flyout: "bottom left"
+  },
+  networks: {
+    twitter: {
+      url: "http://seati.ms/seattlevsboston",
+      description: "Think you know your Seattle and Boston trivia? Take this quiz, but be warned: it's tough."
+    }
   }
 });
 
